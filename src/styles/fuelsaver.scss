@@ -1,0 +1,43 @@
+$font: 'Poppins', sans-serif;
+$red: #ED1C24;
+$blue: #0071BC;
+$black: #000000;
+$white:#ffffff;
+
+@media only screen and (min-width: 300px) {
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .card{
+        width: 100%;
+        border: $black solid 1px;
+        border-radius: 5px;
+        img{
+            width: 100%;
+    
+        }
+        h3{
+            font-size: 16px;
+            padding: 20px;
+            background-color: $red;
+            color: $white;
+
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+
+    }
+    
+}

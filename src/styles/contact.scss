@@ -1,0 +1,134 @@
+$font: 'Poppins', sans-serif;
+$red: #ED1C24;
+$blue: #0071BC;
+$black: #000000;
+$white:#ffffff;
+
+@media only screen and (min-width: 300px) {
+
+    .contact-header{
+        background-image: url(../images/contact-top-bg-mobile.webp) !important;
+    }
+
+    .contact-form{
+        text-align: center;
+        // align-items: center;
+        img{
+            width: 100%;
+        }
+
+        form{
+            // width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            padding: 40px;
+            input{
+                // width: 100%;
+                padding: 10px;
+                border-radius: 3px;
+                font-family: $font;
+                border: solid 1px ;
+                font-size: 14px;
+            }
+            textarea{
+                // width: 100%;
+                padding: 10px;
+                font-family: $font;
+                border-radius: 3px;
+                border: solid 1px ;
+                font-size: 14px;
+            }
+
+            button{
+                width: 100%;
+                text-align: center;
+                text-transform: capitalize;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: $blue;
+                color:$white;
+                border: none;
+
+            }
+            h1{
+                font-size: 20px;
+                text-transform: capitalize;
+                font-weight: bold;
+
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 360px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    .contact-header{
+        background-image: url(../images/contact-top-bg-tab.webp) !important;
+    }
+
+    .contact-form{
+        margin: 100px;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        // padding-top: 0;
+        
+        form{
+            width: 80%;
+            text-align: center;
+            align-items: center;
+            background-color: #f3f3f3;
+        }
+        display: flex;
+        input{
+            width: 90% !important;
+            background-color: #f3f3f3;
+        }
+        textarea{
+            width: 90% !important;
+            background-color: #f3f3f3;
+        }
+        button{
+            width: 90% !important;
+        }
+
+    }
+}
+
+
+@media only screen and (min-width: 400px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .contact-form{
+        margin:  160px;
+        input{
+            width: 300px !important;
+        }
+        textarea{
+            width: 300px !important;
+        }
+
+        button{
+            width: 300px !important;
+        }
+    }
+
+}
+
+@media only screen and (min-width : 1224px) {
+
+    .contact-header{
+        background-image: url(../images/contact-top-bg-dtop.webp) !important;
+    }
+
+}

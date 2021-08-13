@@ -1,0 +1,386 @@
+@media only screen and (min-width: 300px) {
+    $font: 'Poppins', sans-serif;
+    $red: #ED1C24;
+    $blue: #0071BC;
+    $black: #000000;
+    $white:#ffffff;
+
+    .mainContainer{
+        padding: 0 40px;
+    }
+
+    .nav{
+        display: none;
+    }
+    .mobileNav{
+        .toggler{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            button{
+                border: none;
+                background-color: transparent;
+            }
+        }
+        .logo{
+            font-weight: 700;
+            font-size: 11px;
+            .top{
+                color: $blue;
+            }
+            .bottom{
+                color: $red;
+            }
+
+        }
+        a{
+            text-decoration: none;
+            text-transform: capitalize;
+            color: $black;
+            
+        }
+        .innerNav{
+            position: fixed;
+            width: 100%;
+            left: 0;
+            right: 0;
+            
+            background-color: #ffffff; /* Black background with opacity */
+            z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+            cursor: pointer; /* Add a pointer on hover */
+        }
+        
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            a{
+                padding: 20px;
+            }
+        }
+        
+    }
+    .top-header{
+        
+        background-image: url(../images/dot-grid.png);
+        background-repeat: repeat;
+        padding: 40px 40px 0 40px;
+    
+        .content{
+            margin: 25px 0 25px 0;
+            h2{
+                font-size: 15px;
+                margin-bottom: 10px;
+                
+            }
+            h1{
+                font-size: 28px;
+                font-weight: bold;
+                line-height: 35px;
+            }
+            a{
+                text-decoration: none;
+            }
+            button{
+                border: none;
+                padding: 10px 35px;
+                border-radius: 5px;
+                background-color: $red;
+                color: $white;
+                text-transform: capitalize;
+                display: flex;
+                justify-content: space-evenly;
+                margin-top: 10px;
+                
+                
+                img{
+                    height: 18px;
+                    margin-right: 10px;
+                }
+
+            }
+            .blob{
+                margin-top: 20px;
+                width: 100%;
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+    .mainContainer{
+        h1{
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .mySwiper{
+            widows: 100%;
+            text-align: center;
+            img{
+                width: 100%;
+            }
+            h2{
+                font-weight: bold;
+                margin: 10px;
+            }
+            p{
+                font-size: 14px;
+            }
+
+        }
+        .fleet{
+            text-align: center;
+            button{
+                border: none;
+                padding: 10px 35px;
+                border-radius: 5px;
+                background-color: $blue;
+                color: $white;
+                text-transform: capitalize;
+                justify-content: space-evenly;
+                margin-top: 20px;
+
+            }
+
+            .boxes{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-top: 50px;
+                box{
+                    position: relative;
+                }
+                img{
+                    width: 100%;                    
+                }
+                p{
+                    position: absolute;
+                    color: $white;
+                    margin-top: 209px;
+                    margin-left: 20px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-shadow: 2px 2px 4px #000000;
+                }
+            }
+        }
+
+        .services{
+            text-align: center;
+            margin-top: 50px;
+            h1{
+                font-weight: bold;
+            }
+            img{
+                height: 50px;
+            }
+            p{
+                font-size: 14px;
+                margin: 10px;
+            }
+            .boxes{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .box{
+                background-color: #f9f9f9;
+                padding: 30px;
+            }
+    
+        }
+
+        
+
+    }
+
+    .our-mission{
+        margin-top: 50px;
+        text-align: center;
+        background-image: url(../images/about-bg-mobile.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: $white;
+        padding: 30px 40px;
+
+        h1{
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        p{
+            font-size: 14px;
+            line-height: 20px;
+
+        }
+        button{
+            border: none;
+            background-color: $white;
+            color: $blue;
+            border-radius: 5px;
+            padding: 10px 40px;
+            margin-top: 10px;
+            text-transform: capitalize;
+        }
+        
+        
+    }
+  
+}
+
+@media only screen and (min-width: 360px) {
+    .fleet .boxes p{
+        margin-top: 240px !important;
+        //background-color: red;
+        
+
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) {
+    .fleet .boxes p{
+        margin-top: 290px !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .top-header{
+        padding: 60px 60px 0 60px;;
+    }
+    .mobileNav .toggler{
+        .logo{
+            font-size: 20px;
+        }
+        img{
+            width: 40px;
+        }
+
+
+    }
+    .top-header .content{
+        margin-top: 60px;
+        h2{
+            font-size: 25px;
+        }
+        h1{
+            font-size: 40px;
+            margin-bottom: 40px;
+        }
+        button{
+            img{
+                height: 24px;
+            }
+            font-size: 20px;
+            padding: 15px 40px;
+            margin-bottom: 20px;
+        }
+    }
+
+    .fleet{
+        h1{
+            font-size:30px;
+            text-transform: capitalize;
+        }
+        h2{
+            font-size: 20px;
+        }
+        
+        button{
+            font-size: 20px;
+            padding: 15px 40px;
+            margin-bottom: 20px;
+        }
+
+        .boxes{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr; 
+        }
+        .box{
+            flex: 50%;
+
+            p{
+                margin-top: 290px !important;
+
+            }
+        }
+    }
+
+    .services{
+        h1{
+            font-size: 30px;
+        }
+        .boxes{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+
+        }
+    }
+    .our-mission{
+        padding: 80px;
+
+        background-image: url(../images/about-bg-tab.webp);
+
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.5 !important;
+            margin:30px 0;
+        }
+
+        button{
+            font-size: 20px;
+            padding: 10px 40px;
+            margin-bottom: 20px;
+        }
+
+        
+
+
+    }
+
+    footer{
+        h1{
+            font-size: 30px !important;
+            margin-left: 30px !important;
+        }
+
+        .contact{
+            img{
+                width: 20px !important;
+
+            }
+            font-size: 20px;
+            margin-left: 30px !important;
+        }
+        .circles{
+            margin-left: 30px !important;
+        }
+
+        .links{
+            font-size: 20px;
+            gap: 20px !important;
+        }
+        
+        .bottom-footer{
+            font-size: 15px !important;
+            color: #ffffffd5;
+        }
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .our-mission{
+        background-image: url(../images/about-bg-dtop.webp);
+    }
+}

@@ -1,0 +1,204 @@
+{
+    "cars":[
+
+        {
+            "fuel savers":[
+
+                {
+                    "name":"honada fit",
+                    "image":"honada-fit.jpg"                    
+                },
+                {
+                    "name":"toyota vitz",
+                    "image":"toyota-vitz.jpg"
+                },
+                {
+                    "name":"Honda Fit Aria",
+                    "image":"Honda-Fit-Aria.jpg"                    
+                },
+                {
+                    "name":"Mazda Demio",
+                    "image":"Mazda-Demio.jpg"
+                },
+                {
+                    "name":"Toyota Passo",
+                    "image":"Toyota-Passo.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "sedan category 1":[
+
+                {
+                    "name":"Toyota Belta",
+                    "image":"Toyota-Belta.jpg"
+                },
+                {
+                    "name":"Toyota Allion",
+                    "image":"Toyota-Allion.jpg"
+                },
+                {
+                    "name":"Toyota Axio",
+                    "image":"Toyota-Axio.jpg"
+                },
+                {
+                    "name":"Toyota mark x",
+                    "image":"Toyota-mark-x.jpg"
+                },
+                {
+                    "name":"Toyota Premio",
+                    "image":"Toyota-Premio.jpg"
+                },
+                {
+                    "name":"Toyota Corolla",
+                    "image":"Toyota-Corolla.jpg"
+                },
+                {
+                    "name":"Nissan Blue Bird",
+                    "image":"Nissan-Blue-Bird.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "sedan category 2":[
+
+                {
+                    "name":"Mercedes benz E Class",
+                    "image":"Mercedes-benz-e-class.jpg"
+                },
+                {
+                    "name":"Mercedes benz c Class",
+                    "image":"Mercedes-benz-c-class.jpg"
+                },
+                {
+                    "name":"Mercedes benz s Class",
+                    "image":"Mercedes-benz-s-class.jpg"
+                },
+                {
+                    "name":"BMW",
+                    "image":"BMW.jpg"
+                },
+                {
+                    "name":"Chevrolet Cruze",
+                    "image":"Chevrolet-Cruze.jpg"
+                }
+
+            ]
+        },
+        
+        {
+            "SUV category 1":[
+                {
+                    "name":"Nissan Xtrail",
+                    "image":"Nissan-Xtrail.jpg"
+                },
+                {
+                    "name":"Honda CRV",
+                    "image":"Honda-CRV.jpg"
+                },
+                {
+                    "name":"Hyundai Tucson",
+                    "image":"Hyundai-Tucson.jpg"
+                },
+                {
+                    "name":"Rav 4",
+                    "image":"Rav-4.jpg"
+                },
+                {
+                    "name":"Nissan Qushqai",
+                    "image":"Nissan-Qushqai.jpg"
+                }
+
+            ]
+        },
+
+        {
+            "SUV category 2":[
+                {
+                    "name":"Toyota Fortuner",
+                    "image":"Toyota-Fortuner.jpg"
+                },
+                {
+                    "name":"Chevrolet Trail Blazer",
+                    "image":"Chevrolet-Trail-Blazer.jpg"
+                },
+                {
+                    "name":"Mercedes ML",
+                    "image":"Mercedes-ML.jpg"
+                },
+                {
+                    "name":"Toyota Prado Landcruizer",
+                    "image":"Toyota-Prado-Landcruizer.jpg"
+                },
+                {
+                    "name":"Pajero",
+                    "image":"Pajero.jpg"
+                },
+                {
+                    "name":"Discovery",
+                    "image":"Discovery.jpg"
+                }
+
+            ]
+        },
+        
+        {
+            "Trucks and double cabs":[
+                        
+                {
+                    "name":"Toyota Hilux",
+                    "image":"Toyota-Hilux.jpg"
+                },
+                {
+                    "name":"Nissan Np300",
+                    "image":"Nissan-Np300.jpg"
+                },
+                {
+                    "name":"Nissan Navvara",
+                    "image":"Nissan-Navvara.jpg"
+                },
+                {
+                    "name":"Isusu kbs",
+                    "image":"Isusu-kbs.jpg"
+                },
+                {
+                    "name":"VW Amarok",
+                    "image":"VW-Amarok.jpg"
+                }
+            ]
+        },
+
+        {
+            "Trucks and double cabs":[
+                {
+                    "name":"9 seater",
+                    "image":"9-seater.jpg"
+                },
+                {
+                    "name":"12 seater",
+                    "image":"12-seater.jpg"
+                },
+                {
+                    "name":"15 seater",
+                    "image":"15-seater.jpg"
+                },
+                {
+                    "name":"22 seater",
+                    "image":"22-seater.jpg"
+                },
+                {
+                    "name":"36 seater",
+                    "image":"36-seater.jpg"
+                },
+                {
+                    "name":"50 seater",
+                    "image":"50-seater.jpg"
+                }
+            ]
+        }
+    ]
+}
