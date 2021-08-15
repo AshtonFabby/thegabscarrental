@@ -69,9 +69,6 @@ const Footer = () => {
 
             <div className="bottom-footer">Copyright © 2021 The Gabs Car Rental</div>
 
-            
-            
-
         </footer>
         
     )

@@ -17,15 +17,6 @@ module.exports = {
       },
       __key: "images",
     },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `Poppins`,
-        ],
-        display: 'swap'
-      }
-    },
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,

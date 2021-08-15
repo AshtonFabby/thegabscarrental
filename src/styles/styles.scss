@@ -42,19 +42,21 @@ table {
 	border-spacing: 0;
 }
 
-$font: 'Poppins', sans-serif;
+$font: Arial, Helvetica, sans-serif;
 $red: #ED1C24;
 $blue: #0071BC;
 $black: #000000;
 $white:#ffffff;
 body{
-    font-family: $font;
+    font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
     
 }
 
 
-
+button{
+	cursor: pointer;
+}
 .nav{
 
 	display: flex;

@@ -1,5 +1,5 @@
 // Step 1: Import React
-import * as React from 'react'
+import React,{ Suspense } from 'react'
 import { Link } from 'gatsby'
 
 import { StaticImage } from "gatsby-plugin-image"
@@ -31,24 +31,25 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
 
-       
-      <div className="top-header">
-        <Nav/>
-        <MobileNav/>
-        <div className="content">
-          <div className="left">
-          <h2>Flexible, accessible, reliable </h2>
-          <h1>Endless options to meet your needs</h1>
-          <Link to ="/">
-            <button>
-              <img src={call} alt="burger svg"/>
-              call your ride
-            </button>
-          </Link>
+       <Suspense fallback={<div>Loading</div>}>
+        <div className="top-header">
+          <Nav/>
+          <MobileNav/>
+          <div className="content">
+            <div className="left">
+            <h2>Flexible, accessible, reliable </h2>
+            <h1>Endless options to meet your needs</h1>
+            <Link to ="/fleet">
+              <button>
+                <img src={call} alt="burger svg"/>
+                call your ride
+              </button>
+            </Link>
+            </div>
+            <StaticImage className="blob" src="../images/blob-image.png"/>
           </div>
-          <StaticImage className="blob" src="../images/blob-image.png"/>
         </div>
-      </div>
+      </Suspense>
       <div className="mainContainer">
         <div className="fleet">
           <h1 className="headings"> Our fleet </h1>

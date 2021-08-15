@@ -23,11 +23,12 @@ const ContactPage = () => {
 
       <div className="contact-form">
         <StaticImage src="../images/emailImage.png"/>
-        <form action="">
+        <form action="https://formsubmit.co/info@thegabscarrental.co.zw" method="POST">
           <h1>send us a messege</h1>
           <input type="text" name="name" id="name" placeholder="Your Name" />
           <input type="email" name="email" id="email" placeholder="Your Email" />
           <textarea name="messege" id="messege" rows="5" placeholder="Your messege"></textarea>
+          {/* <input type="hidden" name="_next" value="thegabscarrental.co.zw"></input> */}
           <button type="submit">submit</button>
         </form>
       </div>
