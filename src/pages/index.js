@@ -1,5 +1,5 @@
 // Step 1: Import React
-import React,{ Suspense } from 'react'
+import * as React from 'react'
 import { Link } from 'gatsby'
 
 import { StaticImage } from "gatsby-plugin-image"
@@ -31,7 +31,7 @@ const IndexPage = () => {
     <main>
       <title>Home Page</title>
 
-       <Suspense fallback={<div>Loading</div>}>
+       
         <div className="top-header">
           <Nav/>
           <MobileNav/>
@@ -49,7 +49,7 @@ const IndexPage = () => {
             <StaticImage className="blob" src="../images/blob-image.png"/>
           </div>
         </div>
-      </Suspense>
+      
       <div className="mainContainer">
         <div className="fleet">
           <h1 className="headings"> Our fleet </h1>
