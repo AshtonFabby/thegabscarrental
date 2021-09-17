@@ -1,185 +1,217 @@
 $font: Arial, Helvetica, sans-serif;
-$red: #ED1C24;
-$blue: #0071BC;
+$red: #ed1c24;
+$blue: #0071bc;
 $black: #000000;
-$white:#ffffff;
+$white: #ffffff;
 
 @media only screen and (min-width: 300px) {
-
-  .about-header{
+  .box p {
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  .about-header {
     padding: 40px 40px 120px 40px;
     background-image: url(../images/about-bg-mobile.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-
-    .top{
-        color:$white !important;
-        //background-color: $white;
+    .top {
+      color: $white !important;
+      //background-color: $white;
     }
 
-    h1{
-        color: $white;
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 30%;
-    }
-
-  }
-  
-  .vision{
-      text-align: center;
-      margin: 40px;
-
-      h1{
-          font-weight: bold;
-          margin-bottom: 10px;
-
-      }
-      p{
-          font-size: 14px;
-          line-height: 18px;
-
-      }
-      img{
-          width: 100%;
-          margin-top: 20px;
-      }
-  }
-
-  .mission{
-      background-color: #FF5656;
+    h1 {
       color: $white;
-      .gatsby-image-wrapper{
-          display: none;
-      }
-
       text-align: center;
-      padding: 40px;
-      padding-top: 0;
-      p{
-          font-size: 14px;
-          line-height: 18px;
-      }
-
-      h1{
-          font-weight: bold;
-          margin-bottom: 10px; 
-          padding-top: 40px; 
-      }
-
+      font-weight: bold;
+      font-size: 35px;
+      margin-top: 30%;
+    }
+    h2 {
+      color: $white;
+      text-align: center;
+      margin-top: 20px;
+    }
   }
 
-  .core-values{
-      text-align: center;
+  .vision {
+    text-align: center;
+    margin: 40px;
+    p {
+      text-transform: none;
+      font-size: 18px !important;
+      line-height: 24px !important;
+    }
+    h1 {
+      text-transform: capitalize;
+    }
 
-      h1{
-          font-weight: bold;
-          margin-bottom: 10px;
-          padding-top: 40px; 
-      }
-      li{
-          margin: 5px;
-          font-size: 14px;
-      }
-      margin-bottom: 40px;
+    h1 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 25px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 18px;
+    }
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
   }
 
+  .mission {
+    background-color: #ff5656;
+    color: $white;
+    .gatsby-image-wrapper {
+      display: none;
+    }
+
+    text-align: center;
+    padding: 40px;
+    padding-top: 0;
+    p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      padding-top: 40px;
+    }
+  }
+
+  .core-values {
+    .boxes .box img {
+      width: 100px;
+    }
+    text-align: center;
+    padding: 40px;
+
+    .boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    h1 {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      // padding-top: 40px;
+    }
+    h2 {
+      font-size: 25px;
+      margin-top: 20px;
+    }
+
+    margin-bottom: 40px;
+  }
 }
 
 @media only screen and (min-width: 360px) {
-
 }
 
 @media only screen and (min-width: 768px) {
+  .core-values .boxes {
+    gap: 80px;
+    margin-top: 80px;
+  }
 
-    .about-header{
-        background-image: url(../images/about-top-bg-tab.webp);
-    }
+  .about-header {
+    background-image: url(../images/about-top-bg-tab.webp);
+  }
 
-    h1{
-        font-size: 25px;
-
-    }
-    p{
-        font-size: 18px !important;
-        line-height: 20px !important;
-    }
-    .boxes{
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr;
-        gap:30px;
-    }
-    .mission .gatsby-image-wrapper {
-        display: block;
-        width: 100%;
-        margin-top: 40px;
-
-    }
-   .core-values{
-       margin-top: 40px;
-       
-   }
-   .core-values li{
-       font-size: 18px;
-   }
-
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 18px !important;
+    line-height: 20px !important;
+  }
+  .boxes {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  .mission .gatsby-image-wrapper {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .core-values {
+    margin-top: 40px;
+  }
+  .core-values li {
+    font-size: 18px;
+  }
 }
 
 @media only screen and (min-width: 400px) {
-
 }
 
 @media only screen and (min-width: 1024px) {
+  .content {
+    padding: 80px 40px !important;
+  }
+  .core-values .boxes {
+    flex-direction: row;
+    gap: 50px;
 
-    .about-header{
-        padding: 60px 60px;
-        h1{
-            margin-top: 200px;
-        }
-        .innerNav a{
-            color: $white;
-        }
-        .innerNav a:hover{
-            color: $red;
-        }
-    
-        .nav button{
-            background-color: $red;
-        }
-        .nav button:hover{
-            background-color: $white !important;
-            color: $red;
-        }
+    .box {
+      width: 305px;
+    }
+  }
+  .about-header {
+    padding: 60px 60px;
+    h1 {
+      margin-top: 200px;
+    }
+    .innerNav a {
+      color: $white;
+    }
+    .innerNav a:hover {
+      color: $red;
     }
 
+    .nav button {
+      background-color: $red;
+    }
+    .nav button:hover {
+      background-color: $white !important;
+      color: $red;
+    }
+  }
 }
 
-@media only screen and (min-width : 1224px) {
+@media only screen and (min-width: 1224px) {
+  .content {
+    padding: 160px 70px !important;
+  }
+  .about-header {
+    background-image: url(../images/about-top-bg-dtop.webp);
+  }
+  .about-header {
+    padding: 80px 160px;
+    h1 {
+      margin-top: 200px;
+    }
+  }
+  .vision {
+    padding: 70px 160px 70px 160px !important;
+    margin: 0;
+  }
+  .mission {
+    padding: 70px 160px;
+  }
 
-    .about-header{
-        background-image: url(../images/about-top-bg-dtop.webp);
-    }
-    .about-header{
-
-        padding: 80px 160px;
-        h1{
-            margin-top: 200px;
-        }
-    }
-    .vision{
-        padding: 70px 160px 70px 160px !important;
-        margin: 0;
-    }
-    .mission{
-        padding: 70px 160px;
-    }
-
-    .core-values{
-        padding: 70px 160px;
-    }
-
+  .core-values {
+    padding: 70px 160px;
+  }
 }

@@ -27,6 +27,7 @@ const FleetPage = () => {
         <MobileNav/>
         
         <h1>Our Fleet</h1>
+        <h2>We have just what you need</h2>
       </div>
       <div className="fuel-savers">
         <h2>Fuel Savers</h2>

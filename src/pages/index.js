@@ -14,7 +14,7 @@ import SwiperCore, {Autoplay,Pagination,Navigation } from 'swiper/core';
 //importing components
 import Nav from "./components/nav"
 import MobileNav from "./components/mobilenav"
-import call from "../assets/call.svg";
+// import call from "../assets/call.svg";
 import self from "../assets/self-drive.svg";
 import airport from "../assets/airport.svg";
 import chauffeur from "../assets/chauffeur-drive.svg";
@@ -35,14 +35,14 @@ const IndexPage = () => {
         <div className="top-header">
           <Nav/>
           <MobileNav/>
-          <div className="content">
+          <div className="header-content">
             <div className="left">
             <h2>Flexible, accessible, reliable </h2>
             <h1>Endless options to meet your needs</h1>
-            <Link to ="/fleet">
+            <Link to ="/fleet" className="call">
               <button>
-                <img src={call} alt="burger svg"/>
-                call your ride
+                {/* <img src={call} alt="burger svg"/> */}
+                view our fleet
               </button>
             </Link>
             </div>
@@ -125,26 +125,33 @@ const IndexPage = () => {
           <h1>Services</h1>
 
           <div className="boxes">
-            <div className ="box">
-              <img src={self} alt="self drive svg" />
-              <p>self Drive Rental</p>
-            </div>
+            <Link to="/services">
+              <div className ="box">
+                <img src={self} alt="self drive svg" />
+                <p>self Drive Rental</p>
+              </div>
+            </Link>
 
-            <div className ="box">
-              <img src={chauffeur} alt="chauffer drive svg" />
-              <p>Chauffeur Driven Rentals</p>
-            </div>
+            <Link to="/services">
+              <div className ="box">
+                <img src={chauffeur} alt="chauffer drive svg" />
+                <p>Chauffeur Driven Rentals</p>
+              </div>
+            </Link>
 
-            <div className ="box">
-              <img src={airport} alt="Airport Transfers svg" />
-              <p>Airport Transfers</p>
-            </div>
+            <Link to="/services">
+              <div className ="box">
+                <img src={airport} alt="Airport Transfers svg" />
+                <p>Airport Transfers</p>
+              </div>
+            </Link>
 
-            <div className ="box">
-              <img src={shuttle} alt="shuttle svg" />
-              <p>self Drive Rental</p>
-            </div>
-
+            <Link to="/services">
+              <div className ="box">
+                <img src={shuttle} alt="shuttle svg" />
+                <p>travel and tours</p>
+              </div>
+            </Link>
           </div>
 
         </div>

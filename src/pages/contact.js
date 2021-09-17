@@ -19,12 +19,13 @@ const ContactPage = () => {
         <MobileNav/>
         
         <h1>Contact Us</h1>
+        <h2>The best ride, all year long </h2>
       </div>
 
       <div className="contact-form">
         <StaticImage src="../images/emailImage.png"/>
         <form action="https://formsubmit.co/info@thegabscarrental.co.zw" method="POST">
-          <h1>send us a messege</h1>
+          <h1>send us a messege | 24 hours available</h1>
           <input type="text" name="name" id="name" placeholder="Your Name" />
           <input type="email" name="email" id="email" placeholder="Your Email" />
           <textarea name="messege" id="messege" rows="5" placeholder="Your messege"></textarea>

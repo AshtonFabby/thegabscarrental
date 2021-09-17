@@ -38,13 +38,13 @@ const Footer = () => {
                         </div>
                         <div className="circles">
                             <div className="circle">
-                                <Link to="/"><img src={facebook} alt="facebook svg" /></Link>
+                                <Link to="https://www.facebook.com/gabsheritagecarrental"><img src={facebook} alt="facebook svg" /></Link>
                             </div>
                             <div className="circle">
                                 <Link to="/"><img src={instagram} alt="instagram svg" /></Link>
                             </div>
                             <div className="circle">
-                                <Link to="/"><img src={twitter} alt="twitter svg" /></Link>
+                                <Link to="https://twitter.com/thegabsheritage"><img src={twitter} alt="twitter svg" /></Link>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,10 @@ const Footer = () => {
 
             </div>
 
-            <div className="bottom-footer">Copyright © 2021 The Gabs Car Rental</div>
+            <div className="bottom-footer">Copyright © 2021 The Gabs Car Rental
+                <div className="dev">developed by <Link to="https://digitalvague.com/">Digital Vague</Link></div>
+            </div>
+
 
         </footer>
         

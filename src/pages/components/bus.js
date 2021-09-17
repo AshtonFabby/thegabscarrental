@@ -26,16 +26,6 @@ const Bus=()=> {
                 <StaticImage src="../../images/bus/22seater.png" alt="22 seater" />
                 <h3>22 seater</h3>
               </div>
-
-              <div className="card">
-                <StaticImage src="../../images/bus/36-seater.png" alt="36 seater" />
-                <h3>36 seater</h3>
-              </div>
-
-              <div className="card">
-                <StaticImage src="../../images/bus/50seater.png" alt="50 seater" />
-                <h3>50 seater</h3>
-              </div>
             </div>
         );
     

@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image";
 
 
 import burger from "../../assets/burger.svg";
@@ -15,8 +16,9 @@ const MobileNav = () => {
                     <div className="logo">
                         
                         <Link to="/">
-                            <span className = "top">TheGabs</span><br/>
-                            <span className = "bottom">CarRental</span>
+                            {/* <span className = "top">TheGabs</span><br/>
+                            <span className = "bottom">CarRental</span> */}
+                            <StaticImage className="logo-img" src="../../images/logo.jpg" alt="the gabs logo"/>
                         </Link>
                     </div>
                     <button className="hamburger" onClick={()=>setShow(!show)}>
