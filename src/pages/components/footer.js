@@ -13,11 +13,11 @@ import instagram from "../../assets/instagram.svg";
 import facebook from "../../assets/facebook.svg";
 
 const Footer = () => {
-    return(
+    return (
         <footer>
             <div className="top-footer">
                 <h1>get in touch</h1>
-            
+
                 <div className="flex-container">
                     <div className="contacts">
                         <div className="contact">
@@ -29,13 +29,25 @@ const Footer = () => {
                             <span>+263 716 281 777</span>
                         </div>
                         <div className="contact">
-                            <img src={phone} alt="phone svg" />
+                            <img src={call} alt="phone svg" />
                             <span>+263 772 623 410</span>
                         </div>
                         <div className="contact">
-                            <img src={whatsApp} alt="whatsApp svg" />
-                            <span>+263 776 204 234</span>
+                            <img src={call} alt="whatsApp svg" />
+                            <span>+263 773 821 776 </span>
                         </div>
+                        <div className="contact">
+                            <img src={phone} alt="phone svg" />
+                            <span>+ 263 242 702 931-32</span>
+                        </div>
+                        <p className="nb">*NB: All numbers are available on WhatsApp</p>
+
+                        <Link to="https://api.whatsapp.com/send?phone=263772623410&text=Hello%20Sales%20at%20The%20Gabs%20" target="_blank" >
+                            <div className=" contact whatsapp-btn">
+                                <img src={whatsApp} alt="whatsApp svg" />
+                                <span>Chat on WhatsApp </span>
+                            </div>
+                        </Link>
                         <div className="circles">
                             <div className="circle">
                                 <Link to="https://www.facebook.com/gabsheritagecarrental"><img src={facebook} alt="facebook svg" /></Link>
@@ -57,12 +69,12 @@ const Footer = () => {
                         <Link to="/contact">contact</Link>
                     </div>
                     <div className="map">
-                        <StaticImage src="../../images/map.png"/>
+                        <StaticImage src="../../images/map.png" />
 
                     </div>
                 </div>
 
-            
+
 
 
             </div>
@@ -73,7 +85,7 @@ const Footer = () => {
 
 
         </footer>
-        
+
     )
 }
 
